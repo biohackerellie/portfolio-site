@@ -20,7 +20,7 @@ function Particle() {
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.15,
           },
           size: {
             value: 1,
@@ -28,8 +28,8 @@ function Particle() {
           opacity: {
             anim: {
               enable: true,
-              speed: 1,
-              opacity_min: 0.05,
+              speed: 2,
+              opacity_min: 0.15,
             },
           },
         },
@@ -42,7 +42,7 @@ function Particle() {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb: 2,
             },
           },
         },

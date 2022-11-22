@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(149, 32, 173, 0.712),
+    rgba(45, 108, 133, 0.699)
   );
 
   --image-gradient: linear-gradient(
@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #f070ca;
 }
 
 .purple {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #130511;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,12 +57,12 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #331950;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(121, 216, 200, 0.959);
   border-radius: 12px;
 }
 
@@ -76,9 +76,9 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #1a2e2e00 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #50b2f4 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -144,7 +144,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #18222700 !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -189,7 +189,7 @@ button:focus {
 
 .navbar-nav .nav-item a::after {
   content: "";
-  position: relative;
+  position: sticky;
   display: block;
   height: 5px;
   width: 0;
@@ -210,7 +210,7 @@ button:focus {
 /* --------- */
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-duration: 1.1s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
@@ -251,22 +251,22 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 1px !important;
 }
 
-.home-section {
+/* .home-section {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
-}
+  padding-top: 1px !important;
+} */
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(245, 245, 245);
   text-align: left;
 }
 
@@ -277,16 +277,16 @@ button:focus {
 
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 4px !important;
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f6b1ff;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #27cdff !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -652,7 +652,7 @@ button:focus {
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #3463795d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
