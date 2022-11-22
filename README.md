@@ -2,9 +2,6 @@
   Portfolio Website - v3.0<br/>
   <a href="portfolio.epklabs.com" target="_blank">portfolio.epklabs.com</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
