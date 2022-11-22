@@ -6,11 +6,9 @@
 <br/>
 
 <center>
-
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-
 </center>
 
 
@@ -61,4 +59,4 @@ You will find all the components used and you can edit your information accordin
 
 ## Credit
 
-This is a modifaction of the portfolio template repo by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
+This is a modified version of the portfolio template repo by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio)
