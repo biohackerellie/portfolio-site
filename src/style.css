@@ -607,7 +607,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: rgb(17, 0, 0) !important;
 }
 
 .resume {
@@ -624,17 +624,7 @@ button:focus {
   padding-left: 80px !important;
 }
 
-@media (max-width: 767px) {
-  .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
 
-  .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-}
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
@@ -652,7 +642,7 @@ button:focus {
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #3463795d;
+  background: #000000;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -675,13 +665,13 @@ button:focus {
 
 .resume .resume-item::before {
   content: "";
-  position: absolute;
+  position: relative;
   width: 16px;
   height: 16px;
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
+  background: rgb(2, 2, 2);
   border: 2px solid #8a49a8;
 }
 
