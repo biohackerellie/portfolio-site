@@ -8,17 +8,20 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I'm <span className="purple">Ellie Kerns </span>
+            Heya, I'm <span className="purple">Ellie Kerns </span>
             from <span className="purple"> Billings, Montana.</span>
             <br />I'm a full time Systems and Network Administrator currently working for Laurel
-                  Public Schools in Montana
+                  Public Schools. I'm hoping to expand my career in the IT industry, so 
+                  I've spent the last couple of years getting certified and practicing
+                  in all new areas to me like Linux administration, and writing JS! (like this site)
+        
             <br />
             <br />
             Apart from IT, I love:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing World of Warcraft
             </li>
             <li className="about-activity">
               <ImPointRight /> Making Music
@@ -29,9 +32,10 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Everything that happens is from now on"{" "}
+            "you miss 100% of the shots you don't take"{" "}
           </p>
-          <footer className="blockquote-footer">Bon Iver</footer>
+          <footer className="blockquote-footer">Wayne Gretzky</footer>
+          <footer className="blockquote-footer">Michael Scott</footer>
         </blockquote>
       </Card.Body>
     </Card>

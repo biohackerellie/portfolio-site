@@ -607,21 +607,22 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: rgb(17, 0, 0) !important;
+  color: rgba(216, 118, 172, 0.445) !important;
 }
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 900px;
   justify-content: center;
 }
 
 .resume-left {
-  padding-right: 80px !important;
+  padding-right: 110px !important;
 }
 
 .resume-right {
-  padding-left: 80px !important;
+  padding-left: 9000px !important;
 }
 
 
@@ -633,7 +634,7 @@ button:focus {
 }
 
 .resume .resume-item {
-  padding: 0 0 10px 25px;
+  padding: 0 0 0px 0px;
   margin-top: -2px;
   border-left: 2px solid #8a49a8;
   position: relative;
@@ -644,14 +645,14 @@ button:focus {
   font-size: 0.9em;
   background: #000000;
   padding: 8px 15px;
-  display: inline-block;
+  display: box;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .resume .resume-item ul {
   padding-left: 20px;
-  text-align: justify;
+  text-align: match-parent;
 }
 
 .resume .resume-item ul li {
@@ -668,7 +669,7 @@ button:focus {
   position: relative;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
+  border-radius: 500px;
   left: -9px;
   top: 0;
   background: rgb(2, 2, 2);
