@@ -20,7 +20,7 @@ function Particle() {
           },
           move: {
             direction: "right",
-            speed: 0.15,
+            speed: 1.50,
           },
           size: {
             value: 1,

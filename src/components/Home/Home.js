@@ -19,19 +19,19 @@ function Home() {
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
-                </span>
-              </h1>
+                  </span>
+              
 
-              <h1 className="heading-name">
+                  <span className="heading-name">
                 I'M
                 <strong className="main-name"> Ellie Kerns</strong>
-              </h1>
+                </span>
+                </h1>
 
               <div style={{ padding: 1, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
-            
 {/* 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
