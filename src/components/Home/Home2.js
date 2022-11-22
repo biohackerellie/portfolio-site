@@ -19,10 +19,10 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm an Audio Engineer, Artist, and Musican by hobby, and a Systems Administrator/Devops Engineer by trade,
-              and and overall nerd 🤷‍♀️
+              I'm an Audio Engineer, Artist, and Musican by hobby, and a Systems Administrator and aspiring Devops Engineer by trade.
+              Basically you can call me a nerd 🤷‍♀️
               <br />
-              <br />I have extensive knowledge of
+              <br />I have a combined 10 years expierence working with
               <i>
                 <b className="purple"> Powershell, Linux, Windows Server, Ableton Live, Docker, and more! </b>
               </i>
@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Automation and Virtualization </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Microsoft Azure Cloud and Linux Servers.
+                  Devops and Network Administration
                 </b>
               </i>
               <br />

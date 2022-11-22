@@ -12,26 +12,27 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+        <Container fluid max-width={540} className="home-content">
+          <Row md={7} className="home-header">
+              <h1 style={{ paddingBottom: 15, textAlign: "center" }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                   </span>
-              
-
+                  <row>
+                  <div>
                   <span className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> Ellie Kerns</strong>
                 </span>
+                </div>
+                </row>
                 </h1>
 
-              <div style={{ padding: 1, textAlign: "left" }}>
+              <div style={{ padding: 1, textAlign: "center" }}>
                 <Type />
               </div>
-            </Col>
+            
 {/* 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
