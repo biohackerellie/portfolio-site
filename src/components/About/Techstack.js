@@ -59,9 +59,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Javascript">
         <DiJavascript />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Kubernetes">
-        <SiKubernetes />
-      </Col>
     </Row>
   );
 }
