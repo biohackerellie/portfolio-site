@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1a2e2e00 !important;
+  background-color: #d148c61c !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0) !important;
   backdrop-filter: blur(15px) !important;
@@ -546,7 +546,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+
   color: white !important;
 }
 
@@ -560,7 +560,7 @@ button:focus {
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -595,11 +595,7 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
-  }
-}
+
 /* --------- */
 /* Resume */
 /* --------- */
@@ -609,25 +605,35 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: rgba(216, 118, 172, 0.445) !important;
+  color: white !important;
+
 }
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 900px;
   justify-content: center;
 }
 
 .resume-left {
-  padding-right: 110px !important;
+  padding-right: 80px !important;
 }
 
 .resume-right {
-  padding-left: 9000px !important;
+  padding-left: 80px !important;
 }
 
+@media (max-width: 767px) {
+  .resume-left {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
 
+  .resume-right {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+}
 .resume .resume-title {
   font-size: 2em;
   font-weight: 700;
@@ -636,7 +642,7 @@ button:focus {
 }
 
 .resume .resume-item {
-  padding: 0 0 0px 0px;
+  padding: 0 0 10px 25px;
   margin-top: -2px;
   border-left: 2px solid #8a49a8;
   position: relative;
@@ -645,16 +651,16 @@ button:focus {
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #000000;
+  background: #5234795d;
   padding: 8px 15px;
-  display: box;
+  display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .resume .resume-item ul {
   padding-left: 20px;
-  text-align: match-parent;
+  text-align: justify;
 }
 
 .resume .resume-item ul li {
@@ -668,15 +674,16 @@ button:focus {
 
 .resume .resume-item::before {
   content: "";
-  position: relative;
+  position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 500px;
+  border-radius: 50px;
   left: -9px;
   top: 0;
-  background: rgb(2, 2, 2);
+  background: #fff;
   border: 2px solid #8a49a8;
 }
+
 
 .like-item {
   padding-top: 10px !important;

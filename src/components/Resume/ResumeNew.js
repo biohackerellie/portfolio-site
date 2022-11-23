@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import pdf from "./Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+//import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =  "https://github.com/biohackerellie/portfolio-site/blob/3e75a87b470a60dc2e0906756018e384c1af9f79/src/components/Resume/Resume.pdf";
@@ -22,23 +22,19 @@ function ResumeNew() {
 
   return (
     <div>
-      <div>
-      <Particle />
-      <Container fluid className="resume-section">
 
-        <div>
-        <Container style={{ justifyContent: "center", position: "relative" }} className=".resume">  
-          <Document file={resume} position= "center" >
-            <Container>
-            <Page pageNumber={1} scale={width > 8 ? 1.7 : 0.5} position= "center" />
-            </Container>
+      <Particle />
+      <Container fluid className=".resume-section">
+        <Row  className=".resume">  
+          <Document file={resume} className="d-flex justify-content-center">
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6}  />
           </Document>
-          </Container>
-          </div>
+          </Row>
+
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={resumeLink}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -47,7 +43,7 @@ function ResumeNew() {
           </Button>
         </Row>
         </Container>
-      </div>
+
     </div>
   );
 }
