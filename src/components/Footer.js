@@ -5,12 +5,16 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { CgPinBottom } from "react-icons/cg";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
+    // <Footer
+    //   fixed="bottom"
+    //   >
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
@@ -65,6 +69,7 @@ function Footer() {
         </Col>
       </Row>
     </Container>
+    {/* </Footer> */}
   );
 }
 

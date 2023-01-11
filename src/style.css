@@ -543,13 +543,13 @@ button:focus {
 /* Links */
 /* --------- */
 
-.links-section {
+/* .links-section {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
 
   color: white !important;
-}
+} */
 
 /* --------- */
 /* About */
@@ -760,33 +760,182 @@ button:focus {
 /* --------- */
 
 
-.button {
-  display: inline-block;
-  text-decoration: none;
-  height: 48px;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0.1px;
-  white-space: wrap;
-  border-radius: 8px;
-  cursor: pointer;
+.social-buttons {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
 }
-button:hover,
-.button:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0;
+.social-buttons-spotify {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #00da0b !important;
+  border-color: #623686 !important;
 }
-.button.button-primary {
-  color: #fff;
-  filter: brightness(90%);
+
+.social-buttons-spotify:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
 }
-.button.button-primary:hover,
-.button.button-primary:focus {
-  color: #fff;
-  filter: brightness(90%);
+
+.social-buttons-linkedin {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #0077B5 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-linkedin:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-reddit {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #ED001C !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-reddit:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-tumblr {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #36465D !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-tumblr:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-sc {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(12, 12, 12) !important;
+  background-color: #FFFC00 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-sc:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-git {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #000000 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-git:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-insta {
+  font-size: 1.5em !important;
+  margin: 5px !important;
+  padding: 2px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: text-bottom !important;
+  text-align: justify !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background: linear-gradient(90deg, rgba(138,58,185,1) 4%, rgba(252,204,99,1) 27%, rgba(251,173,80,1) 63%, rgba(205,72,107,1) 91%) !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-insta:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
 }
