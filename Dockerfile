@@ -1,6 +1,6 @@
 # ======CONFIGURE=====
 #Use a node 16 base image
-FROM node:16 AS builder
+FROM node:19 AS builder
 #AS development
 
 #Create app directory inside the container
@@ -9,25 +9,22 @@ WORKDIR /app
 #cache dependencies
 COPY package*.json ./
 
-RUN npm install --production
+RUN npm install --force
 
 # Bundle app source
 COPY . . 
 
 
-RUN npm build
+RUN npm run build --force
 
 
-FROM nginx:1.21.6 as production
-ENV NODE_ENV production
-
-COPY --from=builder /app/build /usr/share/nginx/html
-
-COPY nginx.confg /etc/nginx/conf.d/default.conf
+FROM busybox:1.35 as deploy
 
 
-# Expose port
+WORKDIR /app
+
+COPY --from=build /app ./
+
 EXPOSE 3000
 
-# Start the app
-CMD ["nginx", "-g", "daemon off;" ]
+CMD ["busybox", "httpd", "-f", "-v", "-p", "3000"]
