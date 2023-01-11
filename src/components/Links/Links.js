@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react"
-import Particle from "../Particle"
+import Particle from "../Particle";
 
 function Links(){
     return(
@@ -9,25 +9,16 @@ function Links(){
             <Particle />
                 <Container>
                 <Row style={{ justifyContent: "center", padding: "10px" }}>
-                <div className="container">
-                <div className="row">
-                <div className="column" style={{ marginTop: "12%" }}>
-                    <h1>{`FUCK YOU LUNA`}</h1>
-                    <h2> {`seriously fuck you`} </h2>
-                    <p>poop</p>
-                    return (
-                        <>
-                        <Button fuck /> <br />
-                        </>
-                    );
-                    <br />
-                    </div>
-                    </div>
-                    </div>
+                <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                    Where to Find <strong className="purple">Me</strong>
+            </h1>
                     </Row>
+                <Row style ={{ justifyContent: "center", padding: "10px" }}>
+                <Button fluid className="button-section">
+                </Button>
+                </Row>
                 </Container>
         </Container>
-
         )
 }
 export default Links;
