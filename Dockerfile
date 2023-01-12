@@ -1,6 +1,8 @@
 # ======CONFIGURE=====
 #Use a node 16 base image
-FROM node:19 AS builder
+FROM node:19 AS build
+ENV NODE_ENV=production
+ENV NPM_CONFIG_LOGLEVEL=error
 #AS development
 
 #Create app directory inside the container
@@ -23,7 +25,7 @@ FROM busybox:1.35 as deploy
 
 WORKDIR /app
 
-COPY --from=build /app ./
+COPY --from=build /app/build/ ./
 
 EXPOSE 3000
 
