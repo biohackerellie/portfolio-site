@@ -406,6 +406,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  position: fixed !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -537,6 +538,19 @@ button:focus {
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+
+
+/* --------- */
+/* Links */
+/* --------- */
+
+/* .links-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+
+  color: white !important;
+} */
 
 /* --------- */
 /* About */
@@ -740,4 +754,203 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* --------- */
+/* Buttons */
+/* --------- */
+
+
+.social-buttons {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.social-buttons-spotify {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #00da0b !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-spotify:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-linkedin {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #0077B5 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-linkedin:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-reddit {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #ED001C !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-reddit:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-tumblr {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: #fff !important;
+  background-color: #36465D !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-tumblr:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+
+.social-buttons-sc {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(12, 12, 12) !important;
+  background-color: #FFFC00 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-sc:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-git {
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #000000 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-git:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-insta {
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background: linear-gradient(90deg, rgba(138,58,185,1) 4%, rgba(252,204,99,1) 27%, rgba(251,173,80,1) 63%, rgba(205,72,107,1) 91%) !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-insta:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+@media (max-width: 767px) {
+  .social-buttons-insta {
+    margin: 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .social-buttons-git {
+    margin: 10px !important;
+  }
 }
