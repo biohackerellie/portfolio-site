@@ -406,6 +406,7 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
+  position: fixed !important;
 }
 .footer-copywright {
   text-align: center !important;
@@ -762,30 +763,34 @@ button:focus {
 
 .social-buttons {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 15px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
+
 .social-buttons-spotify {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 15px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: #fff !important;
   background-color: #00da0b !important;
@@ -800,16 +805,16 @@ button:focus {
 
 .social-buttons-linkedin {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 15px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: #fff !important;
   background-color: #0077B5 !important;
@@ -824,16 +829,16 @@ button:focus {
 
 .social-buttons-reddit {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 15px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: #fff !important;
   background-color: #ED001C !important;
@@ -848,16 +853,16 @@ button:focus {
 
 .social-buttons-tumblr {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 15px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: #fff !important;
   background-color: #36465D !important;
@@ -872,16 +877,16 @@ button:focus {
 
 .social-buttons-sc {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 15px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: rgb(12, 12, 12) !important;
   background-color: #FFFC00 !important;
@@ -895,16 +900,16 @@ button:focus {
 }
 .social-buttons-git {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 10px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: rgb(255, 255, 255) !important;
   background-color: #000000 !important;
@@ -918,16 +923,16 @@ button:focus {
 }
 .social-buttons-insta {
   font-size: 1.5em !important;
-  margin: 5px !important;
-  padding: 2px !important;
+  margin: 10px !important;
+  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
-  vertical-align: text-bottom !important;
-  text-align: justify !important;
-  border-radius: 10px !important;
-  
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   transition: all 0.4s ease 0s !important;
   color: rgb(255, 255, 255) !important;
   background: linear-gradient(90deg, rgba(138,58,185,1) 4%, rgba(252,204,99,1) 27%, rgba(251,173,80,1) 63%, rgba(205,72,107,1) 91%) !important;
@@ -938,4 +943,14 @@ button:focus {
   color: #fff !important;
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
+}
+@media (max-width: 767px) {
+  .social-buttons-insta {
+    margin: 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .social-buttons-git {
+    margin: 10px !important;
+  }
 }

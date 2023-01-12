@@ -34,16 +34,6 @@ function Footer() {
               >
                 <AiFillGithub />
               </a>
-            {/* </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a> */}
             </li>
             <li className="social-icons">
               <a
@@ -69,7 +59,7 @@ function Footer() {
         </Col>
       </Row>
     </Container>
-    {/* </Footer> */}
+    /* </Footer> */
   );
 }
 

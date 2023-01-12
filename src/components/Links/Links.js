@@ -27,39 +27,45 @@ function Links(){
         <Container fluid style={{ justifyContent: "center",paddingTop: "100px", paddingBottom: "50px", paddingInline: "10px" }}>
             <Particle />
                 <Container >
-                <Col style={{ justifyContent: "center", padding: "10px" }}>
                 <Row style={{ justifyContent: "center", padding: "5px" }}>
-                <h1 style={{ color: "white", fontSize: "2.1em", paddingBottom: "20px" }}>
+                <h1 style={{ color: "white", fontSize: "5.1em", paddingBottom: "20px" }}>
                     Where to Find <strong className="purple">Me</strong>
             </h1>
                     </Row>
-                        <Button 
-                            href="https://instagram.com/biohacker_ellie"
-                            target="_blank"
-                            className="social-buttons-insta"
-                            >
-                            <CgInstagram style={{ fontSize: "1.6em" }}/> {"Instagram"}        
-                        </Button>
-<Row style={{padding: "5px"}}></Row>
-
-                        <Button 
+                    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                    <Col xs={4} md={2} className="social-buttons-insta" >
+                    <Button 
+                    xs={4}
+                    md={2}
+                    href="https://instagram.com/biohacker_ellie"
+                    target="_blank"
+                    className="social-buttons-insta"
+                    >
+                            <CgInstagram style={{ fontSize: "1.6em" }}/> {"Instagram"}   
+                            </Button>
+                        </Col>
+                        
+                        <Col xs={4} md={2} className="social-buttons-git">
+                        <Button
+                                            xs={4}
+                                            md={2} 
                             href="https://github.com/biohackerellie"
                             target="_blank"
                             className="social-buttons-git"
                             >
                             <AiOutlineGithub style={{ fontSize: "1.6em" }}/>{"GitHub"}        
                         </Button>
-                        <Row style={{padding: "5px"}}></Row>
-
+                        </Col>
+                        <Col xs={4} md={2} className="social-buttons-sc"  >
                         <Button 
                             href="https://snapchat.com/add/biohacker_ellie"
                             target="_blank"
                             className="social-buttons-sc"
                             >
-                            <FaSnapchatSquare style={{ fontSize: "1.6em" }}/> {"@SnapChat"}        
+                            <FaSnapchatSquare style={{ fontSize: "1.6em" }}/><div></div> {"SnapChat"}        
                         </Button>
-                        <Row style={{padding: "5px"}}></Row>
-
+                        </Col>
+                        <Col xs={4} md={2} className="social-buttons-tumblr" >
                         <Button 
                             href="https://blog.epklabs.com"
                             target="_blank"
@@ -67,8 +73,8 @@ function Links(){
                             >
                             <FaTumblr style={{ fontSize: "1.6em" }}/> {"Tumblr"}        
                         </Button>
-                        <Row style={{padding: "5px"}}></Row>
-
+                        </Col>
+                        <Col xs={4} md={2} className="social-buttons-reddit" >
                         <Button 
                             href="https://reddit.com/u/biohacker_ellie"
                             target="_blank"
@@ -76,7 +82,8 @@ function Links(){
                             >
                             <FaReddit style={{ fontSize: "1.6em" }}/> {"Reddit"}        
                         </Button>
-                        <Row style={{padding: "5px"}}></Row>
+                        </Col>
+                        <Col xs={4} md={2} className="social-buttons-linkedin" >
 
                         <Button 
                             href="https://www.linkedin.com/in/ellie-kerns-ab1328a0/"
@@ -85,8 +92,8 @@ function Links(){
                             >
                             <FaLinkedinIn style={{ fontSize: "1.6em" }}/> {"Linkedin"}        
                         </Button>
-                        <Row style={{padding: "5px"}}></Row>
-
+                        </Col>
+                        <Col xs={4} md={2} className="social-buttons-spotify">
                         <Button 
                             href="https://open.spotify.com/artist/0csjx5EnVlhizAs1mwMwrW"
                             target="_blank"
@@ -94,10 +101,8 @@ function Links(){
                             >
                             <FaSpotify style={{ fontSize: "1.6em" }}/> {"Spotify"}        
                         </Button>
-                        <Row style={{padding: "5px"}}></Row>
-                    
-                    
-                    </Col>
+                        </Col>
+                        </Row>
                 </Container>
         </Container>
         )
@@ -105,29 +110,3 @@ function Links(){
 export default Links;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        //         render()
-        //             return (
-        //             <div class="container">
-        //             <div class="row">
-        //                 <div class="column" style="margin-top: 10%">
-        //                 <a class="button button-github" href="#" target="_blank" rel="noopener">
-        //                     <img class="icon" src="images/icons/github.svg" alt="GitHub Logo"></img>GitHub</a>
-        //                 </div>
-        //             </div>
-        //             </div>
-        //             );
-                        
-        //         }
-        // </Container>
