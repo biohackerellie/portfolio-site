@@ -22,7 +22,7 @@ My React based website built on Node with included Dockerfile for easy image cre
 
 
 
-## Getting Started
+## Want to use my site as a Template? Here's how to use it:
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
