@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import Links from "./components/Links/Links";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -38,7 +38,6 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/links" element={<Links />} />
           <Route path="/about" element={<About />} />
           <Route path="/Music" element={<Music />} />
           <Route path="/resume" element={<Resume />} />
