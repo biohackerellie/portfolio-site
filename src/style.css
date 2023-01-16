@@ -442,6 +442,56 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+/* music */
+
+.music-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+}
+.music-heading {
+  color: white !important;
+  font-size: 3.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+.music-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+  width: 700px !important;
+}
+.music-card-2 {
+
+
+  padding-left: .5px !important;
+  padding-right: .5px !important;
+  height: 385px !important;
+  width: auto !important;
+
+}
+.music-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: rgb(0, 0, 0) !important;
+  text-shadow:#ffffff !important;
+  background-color: transparent !important;
+  opacity: .9 !important;
+  transition: all 1.5s ease 0s !important;
+  height: 100% !important;
+}
+.music-card-view-2 {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: rgb(0, 0, 0) !important;
+  text-shadow:#ffffff !important;
+  background-color: transparent !important;
+  opacity: .9 !important;
+  transition: all 1.5s ease 0s !important;
+  height: 100% !important;
+  width: 100% !important;
+}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -919,6 +969,98 @@ button:focus {
 .social-buttons-git:hover {
   color: #fff !important;
   background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-soundcloud {
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #F26F23 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-soundcloud:hover {
+  color: #fff !important;
+  background-color: #582101 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-apple {
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid #fc3c44 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #fc3c44 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-apple:hover {
+  color: #fff !important;
+  background-color: #570004d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-youtube {
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid #FF0000 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #FF0000 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-youtube:hover {
+  color: #fff !important;
+  background-color: #570004d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.social-buttons-amazon {
+  font-size: 1.5em !important;
+  margin: 10px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid #FF0000 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: #00a8e1 !important;
+  border-color: #623686 !important;
+}
+
+.social-buttons-amazon:hover {
+  color: #fff !important;
+  background-color: #003041 !important;
   border-color: #6d20c5d7 !important;
 }
 .social-buttons-insta {

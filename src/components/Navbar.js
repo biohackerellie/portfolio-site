@@ -91,17 +91,16 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-{/* 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/Music"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <CgFileDocument style={{ marginBottom: "2px" }} /> My Music
+              
               </Nav.Link>
-            </Nav.Item> */}
-
+            </Nav.Item> 
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/biohackerellie/portfolio-site"
