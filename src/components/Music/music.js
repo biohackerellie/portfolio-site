@@ -48,7 +48,6 @@ function Music(){
                 link="https://open.spotify.com/track/5UP1JnGWM3OUNdCI4VHhfi?si=0f854b6d87344293"
                 />
 								</Col>
-								
 							</Row>
         </Container>
 				<Container>
