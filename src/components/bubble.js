@@ -14,16 +14,16 @@ class bubble {
         this.posX = this.posX - this.movementX;
         this.posY = this.posY - this.movementY;
 
-        if (this.posY < 0 || this.posX < 0 || this.posX > this.maxWidth) {
+        if (this.posY < 0 || this.posX < 1 || this.posX > this.maxWidth) {
             this.randomise();
             this.posY = this.maxHeight;
         }
     }
 
     randomise() {
-        this.color = Math.random() * 255;
-        this.color = "275,345,999";
-        this.size = this.generateDecimalBetween(2, 6);
+        //this.color = Math.random() * 16777215;
+        this.color = "2,376,930";
+        this.size = this.generateDecimalBetween(2, 10);
         this.movementX = this.generateDecimalBetween(-0.4, 0.4);
         this.movementY = this.generateDecimalBetween(0.7, 2);
         this.posX = this.generateDecimalBetween(0, this.maxWidth);
@@ -53,7 +53,7 @@ class background {
             self.ctx.arc(bubble.posX, bubble.posY, bubble.size, 0, 2 * Math.PI);
             self.ctx.fillStyle = "rgba(" + bubble.color + ", 0.39)";
             self.ctx.fill();
-            self.ctx.strokeStyle = "rgba(" + bubble.color + ", 0.39)";
+            self.ctx.strokeStyle = "rgba(" + bubble.color + ", 1.39)";
             self.ctx.stroke();
         });
 
@@ -72,7 +72,7 @@ class background {
     }
 
     bubbleDensity() {
-        return Math.sqrt((this.canvas.height, this.canvas.width) * 5);
+        return Math.sqrt((this.canvas.height, this.canvas.width) * 2);
     }
 }
 

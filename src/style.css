@@ -459,10 +459,10 @@ button:focus {
 .music-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-  padding-left: 25px !important;
+  padding-left: 1px !important;
   padding-right: 25px !important;
   height: auto !important;
-  width: 700px !important;
+  width: 400px !important;
 }
 .music-card-2 {
 
@@ -849,7 +849,7 @@ button:focus {
 
 .social-buttons-spotify:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  background-color: #035500d7 !important;
   border-color: #6d20c5d7 !important;
 }
 

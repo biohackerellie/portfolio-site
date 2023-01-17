@@ -36,45 +36,19 @@ function Music(){
 						
             <div></div>
 						
-            <h2 style={{ color: "white", fontSize: "500"}}>
+            <Row style={{ justifyContent: "center", paddingBottom: "10px", paddingTop: "10px" }}>
+              <Col md={4} className="music-card">
+              <h2 style={{ color: "white", fontSize: "500"}}>
               My latest release
             </h2>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-              <Col md={4} className="music-card">
-                <SpotifyTiles
-                imgPath={older}
-                title="Getting Older"
-                description="My latest single, Getting Older, is a reflection of all the techniques I've learned in production so far, and where I hope to go with my future releases"
+                <SpotifyTilesN
                 link="https://open.spotify.com/track/5UP1JnGWM3OUNdCI4VHhfi?si=0f854b6d87344293"
                 />
 								</Col>
-							</Row>
-        </Container>
-				<Container>
-					<h1 className="music-heading">
-						My previous<strong className="purple"> releases</strong> and <strong className="purple"> features</strong>
-					</h1>
-					<Row>
-					<Col  style={{  justifyContent: "center"}}>
-
-					<SpotifyTilesN
-                link="https://open.spotify.com/album/08L1KXlcNM4yeUftTjTRoA?si=YAQ1MgxSSO-YAfeWEruepg"
-								/>
-								<div></div>
-					<SpotifyTilesN
-                link="https://open.spotify.com/track/3Y3LIdeg2xIpQH0sGZddoy?si=59f3a8668b5e4d52"
-
-								/>
-					<SpotifyTilesN
-                link="https://open.spotify.com/track/0aS7p0EdDgTS0apOUiijDi?si=a3da587faa86411e"
-
-								/>
-					</Col>
-					</Row>
-					<Row>
-					<h1 className="music-heading">
+                <Col md={4} className="music-card">
+                <h3 style={{ color: "white", fontSize: "500"}}>
 						Find my music on all <strong className="purple"> platforms</strong>
-					</h1>
+					</h3>
 						
 						
 						<Button
@@ -114,9 +88,30 @@ function Music(){
 							>
 							<FaAmazon style={{ fontSize: "1.6em" }}/> {"Amazon Prime Music"}
 							</Button>
+                </Col>
 							</Row>
-						
+        </Container>
+				<Container>
+					<h1 className="music-heading">
+						My previous<strong className="purple"> releases</strong> and <strong className="purple"> features</strong>
+					</h1>
+					<Row>
+					<Col  style={{  justifyContent: "center"}}>
 
+					<SpotifyTilesN
+                link="https://open.spotify.com/album/08L1KXlcNM4yeUftTjTRoA?si=YAQ1MgxSSO-YAfeWEruepg"
+								/>
+								<div></div>
+					<SpotifyTilesN
+                link="https://open.spotify.com/track/3Y3LIdeg2xIpQH0sGZddoy?si=59f3a8668b5e4d52"
+
+								/>
+					<SpotifyTilesN
+                link="https://open.spotify.com/track/0aS7p0EdDgTS0apOUiijDi?si=a3da587faa86411e"
+
+								/>
+					</Col>
+					</Row>
 				</Container>
 				</Col>
 			</Container>

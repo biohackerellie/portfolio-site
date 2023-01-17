@@ -56,13 +56,13 @@ export default class Bubbles extends Component {
 			return this.props.color;
 		}
 
-		return '240,371,0';
+		return '2,371,251';
 	}
 
 
 	render() {
 		const style = {
-			position: 'absolute',
+			position: 'fixed',
 			top: 0,
 			left: 0,
 		    width: '100%',
