@@ -22,7 +22,7 @@ function Home2() {
               I'm an Audio Engineer, Artist, and Musican by hobby, and a Systems Administrator and aspiring Devops Engineer by trade.
               Basically you can call me a nerd 🤷‍♀️
               <br />
-              <br />I have a combined 10 years expierence working with
+              <br />I have a combined 10 years experience working with
               <i>
                 <b className="purple"> Powershell, Linux, Windows Server, Ableton Live, Docker, and more! </b>
               </i>
@@ -71,16 +71,6 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              {/* </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a> */}
               </li>
               <li className="social-icons">
                 <a
