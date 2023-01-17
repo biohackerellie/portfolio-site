@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center" }}>
             Heya, I'm <span className="purple">Ellie Kerns </span>
             from <span className="purple"> Billings, Montana.</span>
             <br />I'm a full time Systems and Network Administrator currently working for Laurel

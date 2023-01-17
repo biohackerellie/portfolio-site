@@ -306,7 +306,7 @@ button:focus {
 }
 
 .myAvtar {
-  justify-content: center !important;
+  justify-content: right !important;
   padding-top: 9em !important;
 }
 
@@ -446,6 +446,7 @@ button:focus {
 /* music */
 
 .music-section {
+  
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 150px !important;
@@ -500,7 +501,6 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
 }
 
 .project-card {
@@ -609,8 +609,8 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  padding-bottom: 50px !important;
 
   color: white !important;
 }
