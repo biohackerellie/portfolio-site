@@ -457,6 +457,7 @@ button:focus {
   padding-top: 10px !important;
 }
 .music-card {
+  justify-content: center !important;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 1px !important;
@@ -831,14 +832,13 @@ button:focus {
 
 .social-buttons-spotify {
   font-size: 1.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
+  margin: 5px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
   transition: all 0.4s ease 0s !important;
@@ -973,14 +973,14 @@ button:focus {
 }
 .social-buttons-soundcloud {
   font-size: 1.5em !important;
-  margin: 10px !important;
-  padding: 10px !important;
+  margin: 5px !important;
+
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
   transition: all 0.4s ease 0s !important;
@@ -997,13 +997,12 @@ button:focus {
 .social-buttons-apple {
   font-size: 1.5em !important;
   margin: 10px !important;
-  padding: 10px !important;
   opacity: 0.75 !important;
   border: 1.7px solid #fc3c44 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
   transition: all 0.4s ease 0s !important;
@@ -1020,13 +1019,13 @@ button:focus {
 .social-buttons-youtube {
   font-size: 1.5em !important;
   margin: 10px !important;
-  padding: 10px !important;
+
   opacity: 0.75 !important;
   border: 1.7px solid #FF0000 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
   transition: all 0.4s ease 0s !important;
@@ -1043,13 +1042,13 @@ button:focus {
 .social-buttons-amazon {
   font-size: 1.5em !important;
   margin: 10px !important;
-  padding: 10px !important;
+
   opacity: 0.75 !important;
   border: 1.7px solid #FF0000 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
-  display: table !important;
+  /*display: table !important;*/
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
   transition: all 0.4s ease 0s !important;

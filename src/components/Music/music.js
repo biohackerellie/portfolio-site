@@ -37,7 +37,7 @@ function Music(){
             <div></div>
 						
             <Row style={{ justifyContent: "center", paddingBottom: "10px", paddingTop: "10px" }}>
-              <Col md={4} className="music-card">
+              <Col md={6} className="music-card">
               <h2 style={{ color: "white", fontSize: "500"}}>
               My latest release
             </h2>
@@ -45,7 +45,7 @@ function Music(){
                 link="https://open.spotify.com/track/5UP1JnGWM3OUNdCI4VHhfi?si=0f854b6d87344293"
                 />
 								</Col>
-                <Col md={4} className="music-card">
+                <Col md={6} className="music-card">
                 <h3 style={{ color: "white", fontSize: "500"}}>
 						Find my music on all <strong className="purple"> platforms</strong>
 					</h3>
@@ -55,7 +55,7 @@ function Music(){
 							href="https://open.spotify.com/artist/0csjx5EnVlhizAs1mwMwrW?si=SC15Rpc3RG-sz16ERSfkfg"
 							target="_blank"
 							className="social-buttons-spotify"
-							width="200px"
+							//width="200px"
 							
 							>
 							<FaSpotify style={{ fontSize: "1.6em" }}/> {"Spotify"}
