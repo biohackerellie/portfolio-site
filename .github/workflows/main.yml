@@ -1,0 +1,14 @@
+name: Delete
+
+on:
+ workflow_dispatch:
+  
+jobs:
+  delete:
+     name: Delete Package Versions
+     uses: actions/delete-package-versions@v4.0.0
+     with:
+      num-old-versions-to-delete: 1
+
+
+
