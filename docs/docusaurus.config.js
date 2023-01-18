@@ -10,7 +10,7 @@ const config = {
   title: 'My Documentation',
   tagline: 'Documentation for my Repositories',
   url: 'https://epklabs.com/',
-  baseUrl: '/docs',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '../public/favicon.png',
