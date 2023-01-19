@@ -8,10 +8,12 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
+  AiOutlineFolder,
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineCustomerService,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -84,7 +86,7 @@ function NavBar() {
                 to="/Music"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> My Music
+                <AiOutlineCustomerService style={{ marginBottom: "2px" }} /> My Music
               
               </Nav.Link>
             </Nav.Item>
@@ -95,6 +97,14 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+              </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                href="https://epklabs.com/docs"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFolder style={{ marginBottom: "2px" }} /> Docs
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">
