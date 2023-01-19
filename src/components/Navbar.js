@@ -101,7 +101,7 @@ function NavBar() {
               </Nav.Item>
             <Nav.Item>
               <Nav.Link
-                href="https://epklabs.com/docs"
+                href="https://docs.epklabs.com"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFolder style={{ marginBottom: "2px" }} /> Docs
