@@ -16,7 +16,7 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "rgb(96, 68, 114)" }}>
           Here are a few projects I've worked on recently. Working with code and repositories is a new venture for me, so hopefully this page will fill up over time :)
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

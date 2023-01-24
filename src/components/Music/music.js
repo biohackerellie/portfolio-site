@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Bubbles from "../Bubbles";
 import Spotify from "react-spotify-embed";
 import SpotifyTiles from "./music-tiles";
 import Particle from "../Particle";
@@ -23,7 +22,6 @@ function Music(){
   return (
     <section>
       <Particle />
-      <Bubbles />
 			
         <Container fluid className="music-section" id="music">
 				<Col  style={{  justifyContent: "center"}}>

@@ -1,9 +1,9 @@
 html {
   --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(149, 32, 173, 0.712),
-    rgba(45, 108, 133, 0.699)
-  );
+    to bottom,
+    #5bcefa, #90d5ff, #b6dcff, #d4e5ff, #ebefff, #eeeefd, #f1ecfb, #f4ebf9, #f2dbf0, #f3cae2, #f4bacf, #f5a9b8
+    );
+
 
   --image-gradient: linear-gradient(
     to bottom left,
@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #f070ca;
+  --imp-text-color: #ff49d8;
 }
 
 .purple {
@@ -68,7 +68,7 @@ button:focus {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(243, 148, 255, 0.911);
   border-radius: 12px;
 }
 
@@ -243,7 +243,7 @@ button:focus {
   }
 }
 #tsparticles {
-  position: fixed !important;
+  position: absolute !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
@@ -267,6 +267,7 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: rgb(245, 245, 245);
+  text-shadow: #000000;
   text-align: left;
 }
 
@@ -324,7 +325,8 @@ button:focus {
 }
 
 .home-about-description {
-  color: white !important;
+  color: rgb(8, 8, 8) !important;
+  text-shadow: #000000;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -452,7 +454,7 @@ button:focus {
   padding-bottom: 150px !important;
 }
 .music-heading {
-  color: white !important;
+  color: rgb(71, 46, 71) !important;
   font-size: 3.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -513,7 +515,7 @@ button:focus {
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  color: rgb(73, 73, 73) !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -536,7 +538,7 @@ button:focus {
 .blog-card-view {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
+  color: rgb(96, 68, 114) !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -584,7 +586,7 @@ button:focus {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: rgb(49, 90, 151) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -612,7 +614,7 @@ button:focus {
   padding-top: 30px !important;
   padding-bottom: 50px !important;
 
-  color: white !important;
+  color: rgb(49, 90, 151) !important;
 }
 
 .tech-icons {
@@ -650,7 +652,7 @@ button:focus {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: rgb(68, 68, 68) !important;
   background-color: transparent !important;
 }
 
