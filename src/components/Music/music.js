@@ -40,7 +40,7 @@ function Music(){
               My latest release
             </h2>
                 <SpotifyTilesN
-                link="https://open.spotify.com/track/5UP1JnGWM3OUNdCI4VHhfi?si=0f854b6d87344293"
+                link="https://open.spotify.com/track/7eHvWJ3kWhtUdaCxp7tbXd?si=f6649200840948b6"
                 />
 								</Col>
                 <Col md={6} className="music-card">
