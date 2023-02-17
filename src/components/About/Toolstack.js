@@ -7,9 +7,10 @@ import {
   SiGithub,
   SiPortainer,
   SiAbletonlive,
-  SiReact
+  SiReact,
+  SiUbuntu,
 } from "react-icons/si";
-import VscTerminalUbuntu from "react-icons/vsc";
+
 
 function tips () {
   ('[data-toggle="tooltip"]').tooltip()
@@ -20,7 +21,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <VscTerminalUbuntu title="Ubuntu Server" />
+        <SiUbuntu title="Ubuntu Server" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode title="VsCode"/>
@@ -33,6 +34,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub title="Github"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact title="React"/>
       </Col>
     </Row>
   );
