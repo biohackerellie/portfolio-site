@@ -4,11 +4,12 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
   SiVisualstudiocode,
-  SiPowershell,
+  SiGithub,
   SiPortainer,
   SiAbletonlive,
-  SiNodered,
+  SiReact
 } from "react-icons/si";
+import VscTerminalUbuntu from "react-icons/vsc";
 
 function tips () {
   ('[data-toggle="tooltip"]').tooltip()
@@ -18,23 +19,20 @@ function tips () {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Linux">
-        <SiLinux />
+      <Col xs={4} md={2} className="tech-icons">
+        <VscTerminalUbuntu title="Ubuntu Server" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Visual Studio">
-        <SiVisualstudiocode />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode title="VsCode"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Powershell">
-        <SiPowershell />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPortainer title="Portainer"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Portainer">
-        <SiPortainer />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAbletonlive title="Ableton Live"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Ableton Live">
-        <SiAbletonlive />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="NodeJS">
-        <SiNodered />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub title="Github"/>
       </Col>
     </Row>
   );

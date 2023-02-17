@@ -9,13 +9,16 @@ import {
   DiDocker,
   DiWindows,
   DiGit,
-  DiJavascript,
 } from "react-icons/di";
 import {
   SiMicrosoftazure,
   SiAdobecreativecloud,
   SiKubernetes,
   SiJavascript,
+  SiGithub,
+  SiPowershell,
+  SiPython,
+  SiGnubash,
 } from "react-icons/si";
 
 function tips () {
@@ -26,41 +29,49 @@ function tips () {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Music Production" >
-        <CgMusic />
+      <Col xs={4} md={2} className="tech-icons">
+        <CgMusic title="Music Production"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Linux">
-        <DiLinux/>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAtlassian title="Atlassian Products"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Atlassian">
-        <DiAtlassian />
+      <Col xs={4} md={2} className="tech-icons">
+        <DiApple title="MacOS&IOS" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="MacOS">
-        <DiApple />
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker  title="Docker"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Docker">
-        <DiDocker />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobecreativecloud title="Adobe Creative Cloud"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Adobe Creative Cloud">
-        <SiAdobecreativecloud />
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit title="Git" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Git">
-        <DiGit />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure title="Azure" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Azure">
-        <SiMicrosoftazure />
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWindows title="Windows"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Windows, Server, AD">
-        <DiWindows />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes title="Kubernetes" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Kubernetes">
-        <SiKubernetes />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGnubash title="Bash"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-toggle="tooltip" data-placement="top" title="Javascript">
-        <DiJavascript />
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJavascript title="Javascript" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowershell title="Powershell" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPython title="Python" />
       </Col>
     </Row>
   );
 }
 
 export default Techstack;
+
+
