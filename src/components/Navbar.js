@@ -99,6 +99,15 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
               </Nav.Item>
+              {/* <Nav.Item>
+                <Nav.Link
+                  as={Link}
+                  to="/Contact"
+                  onClick={() => updateExpanded(false)}
+                  >
+                    Contact me
+                  </Nav.Link>
+              </Nav.Item> */}
             <Nav.Item>
               <Nav.Link
                 href="https://docs.epklabs.com"

@@ -1097,3 +1097,12 @@ button:focus {
     margin: 10px !important;
   }
 }
+
+/* Contact Form */
+
+.form-control {
+  border: 1.7px solid rgba(197, 115, 230, 0.883) !important;
+  font-size: 1.5em !important;
+  color: rgb(255, 255, 255);
+  background:rgb(0, 0, 0);
+}
