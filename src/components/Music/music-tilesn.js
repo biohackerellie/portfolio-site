@@ -7,7 +7,8 @@ import Spotify from "react-spotify-embed";
 
 function SpotifyTilesN(props){
   return (
-      <Spotify link={props.link} />
+      <Spotify className="spotify-cards" 
+      link={props.link} />
 
     
   )
