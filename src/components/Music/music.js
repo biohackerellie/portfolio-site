@@ -27,7 +27,14 @@ function Music(){
 				<Col  style={{  justifyContent: "center"}}>
 					
           <Container>
-
+						<h1 className="music-heading">
+							Music Production is my <strong className="purple">PASSION!</strong>
+						</h1>
+						<div className="music-text">
+							Outside of tech (...and video games), my favorite hobby is making music. I started learning from a very young age and it has been a passion my entire life. 
+							Over the years I've learned many useful skills in sound creation and music production and since have released an album and a few singles! I'm always looking to work with new 
+							artists and if you would like to reach out, you can reach me at <a href="mailto:ellie@epklabs.com">ellie@epklabs.com </a>! 
+							</div>
             <h1 className="music-heading">
               Check out the <strong className="purple"> Music</strong> I've made
             </h1>
@@ -36,15 +43,15 @@ function Music(){
 						
             <Row style={{ justifyContent: "center", paddingBottom: "10px", paddingTop: "10px" }}>
               <Col md={6} className="music-card">
-              <h2 style={{ color: "white", fontSize: "500"}}>
+              <h2 style={{ color: "black", fontSize: "500", opacity: ".9" }}>
               My latest release
             </h2>
-                <SpotifyTilesN
+                <SpotifyTilesN 
                 link="https://open.spotify.com/track/7eHvWJ3kWhtUdaCxp7tbXd?si=f6649200840948b6"
                 />
 								</Col>
                 <Col md={6} className="music-card">
-                <h3 style={{ color: "white", fontSize: "500"}}>
+                <h3 style={{ color: "black", fontSize: "500"}}>
 						Find my music on all <strong className="purple"> platforms</strong>
 					</h3>
 						
@@ -95,19 +102,23 @@ function Music(){
 					</h1>
 					<Row>
 					<Col  style={{  justifyContent: "center"}}>
-
-					<SpotifyTilesN
+						<Row>
+						<Col md={4}>
+							<SpotifyTilesN 
                 link="https://open.spotify.com/album/08L1KXlcNM4yeUftTjTRoA?si=YAQ1MgxSSO-YAfeWEruepg"
-								/>
-								<div></div>
-					<SpotifyTilesN
+							/>
+						</Col>
+						<Col md={4}>
+							<SpotifyTilesN
                 link="https://open.spotify.com/track/3Y3LIdeg2xIpQH0sGZddoy?si=59f3a8668b5e4d52"
-
-								/>
-					<SpotifyTilesN
-                link="https://open.spotify.com/track/0aS7p0EdDgTS0apOUiijDi?si=a3da587faa86411e"
-
-								/>
+							/>
+						</Col>
+						<Col md={4}>
+							<SpotifyTilesN
+                link="https://open.spotify.com/track/0aS7p0EdDgTS0apOUiijDi?si=a3da587faa86411e"						
+							/>
+						</Col>
+						</Row>
 					</Col>
 					</Row>
 				</Container>

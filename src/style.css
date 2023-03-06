@@ -446,6 +446,20 @@ button:focus {
 }
 
 /* music */
+.spotify-cards {
+  box-shadow: 0 4px 5px 3px #331950 !important;
+  opacity: .9 !important;
+  height: 352px !important;
+  border-radius: 30px !important;
+}
+
+.music-text {
+  position: relative !important;
+  text-align: center !important;
+  font-size: 1.3em !important;
+  padding-bottom: 30px !important;
+  padding-top: 20px !important;
+}
 
 .music-section {
   
@@ -833,13 +847,14 @@ button:focus {
 }
 
 .social-buttons-spotify {
+  
   font-size: 1.5em !important;
   margin: 5px !important;
   opacity: 0.75 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 25px !important;
 
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
@@ -981,7 +996,7 @@ button:focus {
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 25px !important;
 
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
@@ -1003,7 +1018,7 @@ button:focus {
   border: 1.7px solid #fc3c44 !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 25px !important;
 
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
@@ -1026,7 +1041,7 @@ button:focus {
   border: 1.7px solid #FF0000 !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 25px !important;
 
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
@@ -1049,7 +1064,7 @@ button:focus {
   border: 1.7px solid #FF0000 !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 25px !important;
   /*display: table !important;*/
   box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
   overflow: visible !important;
