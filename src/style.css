@@ -510,6 +510,13 @@ button:focus {
   height: 100% !important;
   width: 100% !important;
 }
+
+.music-player {
+  color:rgb(49, 90, 151) !important;
+  opacity: .9 !important;
+}
+
+
 /* --------- */
 /* Projects */
 /* --------- */
