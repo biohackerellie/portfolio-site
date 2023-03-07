@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Spotify from "react-spotify-embed";
-import SpotifyTiles from "./music-tiles";
+import  makin  from "../Music/audio/makin.wav";
 import Particle from "../Particle";
-import older from "./img/older.png";
-import Album from "./img/Album.png";
 import SpotifyTilesN from "./music-tilesn";
+import older from "../Music/img/older.png"
+import player from "./music-tiles2";
 import Button from "react-bootstrap/Button";
 import {
 	FaSpotify,
@@ -46,8 +45,11 @@ function Music(){
               <h2 style={{ color: "black", fontSize: "500", opacity: ".9" }}>
               My latest release
             </h2>
-                <SpotifyTilesN 
-                link="https://open.spotify.com/track/7eHvWJ3kWhtUdaCxp7tbXd?si=f6649200840948b6"
+                <player
+                audio={makin}
+								title="song"
+								artist="yes"
+								cover={older}
                 />
 								</Col>
                 <Col md={6} className="music-card">
