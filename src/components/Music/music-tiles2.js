@@ -4,11 +4,11 @@ import { AiFillPlayCircle, AiFillPauseCircle, } from "react-icons/ai";
 
 
 function Player(props){
-// create play,pause functionality
+
 const [isPlaying, setIsPlaying] = useState(false);
-// add audio to play function
+
 const [play, { pause, duration, sound}] = useSound(props.audio);
-// add switch to play,pause
+
 const playingButton = () => {
   if (isPlaying) {
     pause();
@@ -59,10 +59,6 @@ return (
       alt="pic"
     />
     <div>
-      <h3 className="song-title">{props.title}</h3>
-      <p className="song-artist">{props.artist}</p>
-    </div>
-    <div>
       {!isPlaying ? (
         <button className="music-play" onClick={playingButton}>
             <AiFillPlayCircle size={70} />
@@ -75,12 +71,7 @@ return (
       </div>
       <div>
         <div className="time">
-          <p>
-            {currTime.min}:{currTime.sec}
-          </p>
-          <p>
-            {time.min}:{time.sec}
-          </p>
+
         </div>
         <input
           type="range"

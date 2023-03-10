@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import  makin  from "../Music/audio/makin.wav";
 import Particle from "../Particle";
 import SpotifyTilesN from "./music-tilesn";
-import older from "../Music/img/older.png"
+import older from "../Music/img/older.png";
+import makincov from "../Music/img/makin.png";
 import Player from "./music-tiles2";
 import Button from "react-bootstrap/Button";
 import {
@@ -46,11 +47,10 @@ function Music(){
               My latest release
             </h2>
             <Player
-								style={{color: "black"}}
+								style={{color: "black"}} 
                 audio={makin}
 								title="song"
-								rtist="yes"
-								cover={older}
+								cover={makincov}
               />
 								</Col>
                 <Col md={6} className="music-card">
