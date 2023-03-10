@@ -4,7 +4,7 @@ import  makin  from "../Music/audio/makin.wav";
 import Particle from "../Particle";
 import SpotifyTilesN from "./music-tilesn";
 import older from "../Music/img/older.png"
-import player from "./music-tiles2";
+import Player from "./music-tiles2";
 import Button from "react-bootstrap/Button";
 import {
 	FaSpotify,
@@ -45,12 +45,13 @@ function Music(){
               <h2 style={{ color: "black", fontSize: "500", opacity: ".9" }}>
               My latest release
             </h2>
-                <player
+            <Player
+								style={{color: "black"}}
                 audio={makin}
 								title="song"
-								artist="yes"
+								rtist="yes"
 								cover={older}
-                />
+              />
 								</Col>
                 <Col md={6} className="music-card">
                 <h3 style={{ color: "black", fontSize: "500"}}>

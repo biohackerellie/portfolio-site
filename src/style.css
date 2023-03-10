@@ -512,10 +512,67 @@ button:focus {
 }
 
 .music-player {
-  color:rgb(49, 90, 151) !important;
+  box-shadow: 0 4px 5px 3px #331950 !important;
+
   opacity: .9 !important;
+  height: 340px !important;
+  border-radius: 30px !important;
+  justify-content: center !important;
+  }
+input[type="range"] {
+  background-color: #27ae60;
 }
 
+.music-play {
+  color:var(--imp-text-color) !important;
+  align-items: center;
+
+  background: none !important;
+  background-blend-mode: color;
+  border: none !important;
+  opacity: .9 ;
+}
+.musicCover {
+
+  padding-top: 10px !important;
+
+  height: 250px !important;
+  border-radius: 10%;
+  width: 60%;
+}
+
+.song-title {
+  margin-top: -5em;
+  color: var(--imp-text-color);
+}
+
+.song-artist {
+  margin-top: -1em;
+  color: #4f4f4f;
+}
+
+@media (max-width: 150px) {
+  .music-player {
+    width: 50%;
+  }
+}
+
+.time {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--imp-text-color);
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  background-color: #27ae60 !important;
+  color: greenyellow !important;
+  margin-top: -7em;
+  padding-bottom: 40px;
+}
 
 /* --------- */
 /* Projects */
