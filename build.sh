@@ -5,7 +5,7 @@ CONTAINER_NAME=website
 IMAGE_NAME=website
 
 # Change to the directory containing the Git repository
-cd path/to/app
+cd apps/portfolio-site
 
 # Check for updates
 git fetch
