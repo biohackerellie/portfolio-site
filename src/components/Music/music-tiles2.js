@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { AiFillPauseCircle, AiFillPlayCircle } from "react-icons/ai";
 import useSound from "use-sound";
-import { AiFillPlayCircle, AiFillPauseCircle, } from "react-icons/ai";
 
 
 function Player(props){
