@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #we make 2 variables at the start, this allows this script to be easier to copy and paste for different containers with less retyping
-CONTAINER_NAME=<container_name>
-IMAGE_NAME=<image_name>
+CONTAINER_NAME=website
+IMAGE_NAME=website
 
 # Change to the directory containing the Git repository
 cd path/to/app
@@ -25,7 +25,7 @@ if ! git diff --quiet HEAD @{u}; then
     # Deletes old container
     docker system prune -f && \
     # Restart container with new image
-    docker run --rm --name $CONTAINER_NAME -p 3000:3000 -d $IMAGE_NAME:latest
+    docker run --rm --name $CONTAINER_NAME -p 3030:3000 -d $IMAGE_NAME:latest
 
 else
     echo "No changes. Exiting."
