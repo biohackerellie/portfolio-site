@@ -1,48 +1,36 @@
 import React from "react";
+<<<<<<< HEAD
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import SpotifyTilesN from "./music-tilesn";
+=======
+import { Col, Container, Row } from "react-bootstrap";
+>>>>>>> 4f2ea66bd2cc9b713b803adc045743aa334b3a22
 import Button from "react-bootstrap/Button";
 import {
-	FaSpotify,
-	FaApple,
-	FaSoundcloud,
-	FaYoutube,
-	FaAmazon
+	FaAmazon, FaApple,
+	FaSoundcloud, FaSpotify, FaYoutube
 } from "react-icons/fa";
+import ReactPlayer from "react-player";
+import Particle from "../Particle";
+import Soundcloud from "./soundcloud";
 
 function Music(){
   return (
     <section>
-      <Particle />
-			
+    	<Particle />			
         <Container fluid className="music-section" id="music">
-				<Col  style={{  justifyContent: "center"}}>
-					
-          <Container>
 						<h1 className="music-heading">
-							Music Production is my <strong className="purple">PASSION!</strong>
+							My <strong className="purple">Latest</strong> Release
 						</h1>
-						<div className="music-text">
-							Outside of tech (...and video games), my favorite hobby is making music. I started learning from a very young age and it has been a passion my entire life. 
-							Over the years I've learned many useful skills in sound creation and music production and since have released an album and a few singles! I'm always looking to work with new 
-							artists and if you would like to reach out, you can reach me at <a href="mailto:ellie@epklabs.com">ellie@epklabs.com </a>! 
-							</div>
-            <h1 className="music-heading">
-              Check out the <strong className="purple"> Music</strong> I've made
-            </h1>
-						
-            <div></div>
-						
-            <Row style={{ justifyContent: "center", paddingBottom: "10px", paddingTop: "10px" }}>
-              <Col md={6} className="music-card">
-              <h2 style={{ color: "black", fontSize: "500", opacity: ".9" }}>
-              My latest release
-            </h2>
-                <SpotifyTilesN 
-                link="https://open.spotify.com/track/7eHvWJ3kWhtUdaCxp7tbXd?si=f6649200840948b6"
-                />
-								</Col>
+						<Row md={2} style={{justifyContent: "center"}} className="soundcloud">
+							<ReactPlayer
+								url="https://soundcloud.com/elliekerns/makin-it-up"
+								height="600px"
+								width="600px"								
+								/>
+
+
                 <Col md={6} className="music-card">
                 <h3 style={{ color: "black", fontSize: "500"}}>
 						Find my music on all <strong className="purple"> platforms</strong>
@@ -94,29 +82,35 @@ function Music(){
 						My previous<strong className="purple"> releases</strong> and <strong className="purple"> features</strong>
 					</h1>
 					<Row>
-					<Col  style={{  justifyContent: "center"}}>
+					<Col  style={{  justifyContent: "center", paddingBottom: "100px"}}>
 						<Row>
 						<Col md={4}>
-							<SpotifyTilesN 
-                link="https://open.spotify.com/album/08L1KXlcNM4yeUftTjTRoA?si=YAQ1MgxSSO-YAfeWEruepg"
+							<Soundcloud 
+                url="https://soundcloud.com/elliekerns/getting-older-master?si=2c50c1b888174d13b0d441dd862f05e5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+								height="250px"
+								width="357px"
 							/>
 						</Col>
 						<Col md={4}>
-							<SpotifyTilesN
-                link="https://open.spotify.com/track/3Y3LIdeg2xIpQH0sGZddoy?si=59f3a8668b5e4d52"
+							<Soundcloud
+                url="https://soundcloud.com/elliekerns/sets/songs-in-my-head?si=fa1926a68418426bba2abece703d3e8d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+								height="250px"
+								width="357px"
 							/>
 						</Col>
 						<Col md={4}>
-							<SpotifyTilesN
-                link="https://open.spotify.com/track/0aS7p0EdDgTS0apOUiijDi?si=a3da587faa86411e"						
+							<Soundcloud
+                url="https://soundcloud.com/elliekerns/jordan-peterson-1?si=fa1926a68418426bba2abece703d3e8d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+								height="250px"
+								width="357px"						
 							/>
 						</Col>
 						</Row>
 					</Col>
 					</Row>
 				</Container>
-				</Col>
-			</Container>
+				
+			
 		</section>			
   )
 }
