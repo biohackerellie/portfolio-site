@@ -1,3 +1,5 @@
 {
-    "jira-plugin.workingProject": ""
+    "jira-plugin.workingProject": "",
+    "workbench.colorTheme": "Andromeda Bordered",
+    "workbench.preferredDarkColorTheme": "Andromeda Bordered"
 }

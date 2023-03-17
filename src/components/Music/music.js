@@ -15,22 +15,18 @@ import Soundcloud from "./soundcloud";
 function Music(){
   return (
     <section>
-      <Particle />			
+    	<Particle />			
         <Container fluid className="music-section" id="music">
 						<h1 className="music-heading">
 							My <strong className="purple">Latest</strong> Release
 						</h1>
-						<Container style={{justifyContent: "center"}}>
-						<div className="soundcloud" >
+						<Row md={2} style={{justifyContent: "center"}} className="soundcloud">
 							<ReactPlayer
 								url="https://soundcloud.com/elliekerns/makin-it-up"
-								height="900px"
-								width="900px"
-								
+								height="600px"
+								width="600px"								
 								/>
-						</div>
-						</Container>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px", paddingTop: "10px" }}>
+
 
                 <Col md={6} className="music-card">
                 <h3 style={{ color: "black", fontSize: "500"}}>
@@ -83,7 +79,7 @@ function Music(){
 						My previous<strong className="purple"> releases</strong> and <strong className="purple"> features</strong>
 					</h1>
 					<Row>
-					<Col  style={{  justifyContent: "center"}}>
+					<Col  style={{  justifyContent: "center", paddingBottom: "100px"}}>
 						<Row>
 						<Col md={4}>
 							<Soundcloud 
