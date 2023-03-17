@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Spotify from "react-spotify-embed";
-import SpotifyTiles from "./music-tiles";
 import Particle from "../Particle";
-import older from "./img/older.png";
-import Album from "./img/Album.png";
 import SpotifyTilesN from "./music-tilesn";
 import Button from "react-bootstrap/Button";
 import {
@@ -14,9 +10,6 @@ import {
 	FaYoutube,
 	FaAmazon
 } from "react-icons/fa";
-
-
-
 
 function Music(){
   return (
