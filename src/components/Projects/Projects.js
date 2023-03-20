@@ -63,7 +63,7 @@ function Projects() {
             <ProjectCard
               imgPath={rds}
               title="Windows RDS using Guacamole"
-              description="A RDS solution using Guacamole as a load-balancer used for Laurel Public Schools students"
+              description="A RDS solution using Guacamole as a load-balancer used for Laurel Public Schools students. Project uses windows server 2022 for Windows Host, Docker for hosting the Guacamole gateway, and SQL for the user database"
               demoLink="https://docs.epklabs.com/Linux/Docker%20Projects/Windows%20RDS%20with%20Guacamole"
               />
           </Col>
