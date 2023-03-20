@@ -22,7 +22,7 @@
     "react-player": "^2.12.0",
     "react-router-dom": "^6.2.2",
     "react-scripts": "^5.0.1",
-    "react-spotify-embed": "^1.0.4",
+    "react-spotify-embed": "^2.0.3",
     "react-tsparticles": "^1.42.2",
     "reactdom": "^2.0.0",
     "spotify-web-api-node": "^5.0.2",
