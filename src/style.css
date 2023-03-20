@@ -525,7 +525,7 @@ button:focus {
 .project-section {
   position: relative !important;
   padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-bottom: 1px !important;
 }
 
 .project-card {
