@@ -7,7 +7,6 @@ import {
 import Preloader from "../src/components/Pre";
 import "./App.css";
 import About from "./components/About/About";
-import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import Music from "./components/Music/music";
@@ -42,7 +41,6 @@ function App() {
           <Route path="/Music" element={<Music />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

@@ -1,19 +1,13 @@
 import React from "react";
-<<<<<<< HEAD
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import SpotifyTilesN from "./music-tilesn";
-=======
-import { Col, Container, Row } from "react-bootstrap";
->>>>>>> 4f2ea66bd2cc9b713b803adc045743aa334b3a22
 import Button from "react-bootstrap/Button";
 import {
 	FaAmazon, FaApple,
 	FaSoundcloud, FaSpotify, FaYoutube
 } from "react-icons/fa";
 import ReactPlayer from "react-player";
-import Particle from "../Particle";
-import Soundcloud from "./soundcloud";
+
 
 function Music(){
   return (
@@ -29,20 +23,15 @@ function Music(){
 								height="600px"
 								width="600px"								
 								/>
-
-
                 <Col md={6} className="music-card">
                 <h3 style={{ color: "black", fontSize: "500"}}>
 						Find my music on all <strong className="purple"> platforms</strong>
-					</h3>
-						
-						
+					</h3>												
 						<Button
 							href="https://open.spotify.com/artist/0csjx5EnVlhizAs1mwMwrW?si=SC15Rpc3RG-sz16ERSfkfg"
 							target="_blank"
 							className="social-buttons-spotify"
 							//width="200px"
-							
 							>
 							<FaSpotify style={{ fontSize: "1.6em" }}/> {"Spotify"}
 							</Button>
@@ -85,21 +74,21 @@ function Music(){
 					<Col  style={{  justifyContent: "center", paddingBottom: "100px"}}>
 						<Row>
 						<Col md={4}>
-							<Soundcloud 
+							<ReactPlayer 
                 url="https://soundcloud.com/elliekerns/getting-older-master?si=2c50c1b888174d13b0d441dd862f05e5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 								height="250px"
 								width="357px"
 							/>
 						</Col>
 						<Col md={4}>
-							<Soundcloud
+							<ReactPlayer
                 url="https://soundcloud.com/elliekerns/sets/songs-in-my-head?si=fa1926a68418426bba2abece703d3e8d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 								height="250px"
 								width="357px"
 							/>
 						</Col>
 						<Col md={4}>
-							<Soundcloud
+							<ReactPlayer
                 url="https://soundcloud.com/elliekerns/jordan-peterson-1?si=fa1926a68418426bba2abece703d3e8d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
 								height="250px"
 								width="357px"						
@@ -108,9 +97,7 @@ function Music(){
 						</Row>
 					</Col>
 					</Row>
-				</Container>
-				
-			
+				</Container>							
 		</section>			
   )
 }
