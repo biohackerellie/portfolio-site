@@ -76,22 +76,22 @@ function Music(){
 						<Col md={4}>
 							<ReactPlayer 
                 url="https://soundcloud.com/elliekerns/getting-older-master?si=2c50c1b888174d13b0d441dd862f05e5&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-								height="250px"
-								width="357px"
+								height="300px"
+								width="300px"
 							/>
 						</Col>
 						<Col md={4}>
 							<ReactPlayer
                 url="https://soundcloud.com/elliekerns/sets/songs-in-my-head?si=fa1926a68418426bba2abece703d3e8d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-								height="250px"
-								width="357px"
+								height="300px"
+								width="300px"
 							/>
 						</Col>
 						<Col md={4}>
 							<ReactPlayer
                 url="https://soundcloud.com/elliekerns/jordan-peterson-1?si=fa1926a68418426bba2abece703d3e8d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-								height="250px"
-								width="357px"						
+								height="300px"
+								width="300px"						
 							/>
 						</Col>
 						</Row>
