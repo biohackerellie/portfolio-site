@@ -10,7 +10,7 @@ import ReactPlayer from "react-player";
 
 
 function Music(){
-  return (
+	return (
     <section>
     	<Particle />			
         <Container fluid className="music-section" id="music">

@@ -1,5 +1,7 @@
 {
     "jira-plugin.workingProject": "",
     "workbench.colorTheme": "Andromeda Bordered",
-    "workbench.preferredDarkColorTheme": "Andromeda Bordered"
+		"workbench.preferredDarkColorTheme": "Andromeda Bordered",
+		"editor.tabSize": 2,
+    
 }
