@@ -28,7 +28,7 @@
     "spotify-web-api-node": "^5.0.2",
     "typewriter-effect": "^2.18.2",
     "use-sound": "^4.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
