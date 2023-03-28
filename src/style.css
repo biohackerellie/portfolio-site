@@ -951,7 +951,29 @@ button:focus {
   border-color: #6d20c5d7 !important;
 }
 
+.social-buttons-sc {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.75 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(0, 0, 0, 0.699) !important;
+  overflow: visible !important;
+  transition: all 0.4s ease 0s !important;
+  color: rgb(12, 12, 12) !important;
+  background-color: #FFFC00 !important;
+  border-color: #623686 !important;
+}
 
+.social-buttons-sc:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
 .social-buttons-git {
   font-size: 1.5em !important;
   margin: 10px !important;

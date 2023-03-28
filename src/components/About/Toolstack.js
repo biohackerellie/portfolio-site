@@ -1,6 +1,8 @@
+import { Tooltip } from "bootstrap";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  SiLinux,
   SiVisualstudiocode,
   SiGithub,
   SiPortainer,
@@ -10,6 +12,9 @@ import {
 } from "react-icons/si";
 
 
+function tips () {
+  ('[data-toggle="tooltip"]').tooltip()
+}
 
 
 function Toolstack() {
