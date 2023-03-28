@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
   AiFillMail,
 } from "react-icons/ai";
-import { CgPinBottom } from "react-icons/cg";
+import Logo from "../Assets/translogo.png";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -22,7 +21,8 @@ function Footer() {
           <h3>Designed and Developed by Ellie Kerns</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} EPKlabs</h3>
+          <h3>Copyright © {year} EPKlabs <img src={Logo} className="logo" alt="logo" /> </h3>
+					
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
