@@ -1,9 +1,8 @@
-import { Tooltip } from "bootstrap";
+
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgMusic } from "react-icons/cg";
 import {
-  DiLinux,
   DiAtlassian,
   DiApple,
   DiDocker,
@@ -15,15 +14,12 @@ import {
   SiAdobecreativecloud,
   SiKubernetes,
   SiJavascript,
-  SiGithub,
   SiPowershell,
   SiPython,
   SiGnubash,
 } from "react-icons/si";
 
-function tips () {
-  ('[data-toggle="tooltip"]').tooltip()
-}
+
 
 
 function Techstack() {

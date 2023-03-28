@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "./Resume.pdf";
@@ -8,10 +8,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 //import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =  "https://github.com/biohackerellie/portfolio-site/blob/3e75a87b470a60dc2e0906756018e384c1af9f79/src/components/Resume/Resume.pdf";
 
 
-  const resume = pdf
+const resume = pdf
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
